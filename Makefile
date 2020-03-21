@@ -11,5 +11,3 @@ hooks: ## Setup. Setup pre commit.
 validate: ## Validate files with pre-commit hooks
 	@pre-commit run --all-files
 
-rmi: ## Remove docker stuff
-	@bin/rmi.sh
